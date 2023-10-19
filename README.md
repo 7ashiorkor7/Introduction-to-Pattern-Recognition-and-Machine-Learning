@@ -1,5 +1,5 @@
 # Introduction-to-Pattern-Recognition-and-Machine-Learning
-This course gave an introduction to Machine Learning to solve data-driven problems and provided the readiness to study the more advanced methods of machine learning, that are addressed in the advanced courses.
+This course gave an introduction to Machine Learning to solve data-driven problems using python and provided the readiness to study the more advanced methods of machine learning, that are addressed in the advanced courses.
 
 This repository serves as a resource hub for the "Introduction to Pattern Recognition and Machine Learning" course. Here, you'll find all the projects that were undertaken during the course.
 
