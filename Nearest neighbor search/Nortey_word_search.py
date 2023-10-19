@@ -1,3 +1,15 @@
+""" Using machine learning techniques, words of any language can be embedded into a high dimensional
+Euclidean space where semantically similar words are close to each other.
+You are provided a file that contains 400,000 English terms and their 50-dimensional embedding vectors.
+You are also provided a code that loads the words and their vectors.
+Search similar words 
+For any input word, return the three (3) most similar words (the most similar should be the input word
+itself). Give results at least to:
+• king
+• europe
+• frog
+ """
+
 import random
 import numpy as np
 

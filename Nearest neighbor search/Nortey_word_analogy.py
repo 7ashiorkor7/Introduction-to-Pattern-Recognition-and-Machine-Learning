@@ -1,3 +1,20 @@
+""" Using machine learning techniques, words of any language can be embedded into a high dimensional
+Euclidean space where semantically similar words are close to each other.
+You are provided a file that contains 400,000 English terms and their 50-dimensional embedding vectors.
+You are also provided a code that loads the words and their vectors.
+Search analogy 
+Another interesting task is the search of analogy, for example, \king is to queen as prince is to X" - what
+would be X? In the word embedding space this can be done using the difference vectors. If x is the king
+word vector, y is the queen word vector and z is the prince word vector, then the Euclidean version of
+analogy is z = z + (y 􀀀 x), that is, the vector from king to queen is added to prince to obtain vector z
+that is relatively in the same location as queen is from king. The corresponding word must then be sought
+using the nearest neighbor search.
+For each analogy, return two (2) best matches, for the following combinations
+• king-queen-prince
+• Finland-helsinki-china
+• love-kiss-hate
+ """
+
 import random
 import numpy as np
 
