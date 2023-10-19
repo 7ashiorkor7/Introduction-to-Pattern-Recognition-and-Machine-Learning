@@ -1,3 +1,13 @@
+""" 1. Linear model fit with N > 2 training points 
+(a) During the lecture we started to derive solutions for the parameters a and b of the linear model
+y = ax + b and for N training samples {(x1, y1),(x2, y2), . . . ,(xN , yN )}.
+You should first finish the derivation. Do not google, but allow yourself to do the math since errors
+will be found in the next steps.
+(b) Implement a Python function my linfit(x,y) that solves and returns a and b. Use your own derivations
+in the function - no matter how “ugly” they are - to convince yourself about your super powers.
+(c) Write a Python program that asks user to give N points with a mouse (left click: add point, right
+click: stop collecting) and then plots the points and a fitted linear model. """
+
 import matplotlib.pyplot as plt
 import numpy as np
 
